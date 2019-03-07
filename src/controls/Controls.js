@@ -15,4 +15,10 @@ const Controls = props => {
   );
 };
 
+Controls.defaultProps = {
+  locked: false,
+  closed: false
+}
+
+
 export default Controls;
